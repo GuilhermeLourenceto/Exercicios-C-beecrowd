@@ -9,6 +9,6 @@ int main()
    scanf("%f", &salario);
    multi = salario * horas;
    printf("NUMBER = %d\n", numero);
-   printf("SALARY = U$ %.2f", multi);
+   printf("SALARY = U$ %.2f\n", multi);
     return 0;
 }
