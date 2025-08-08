@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    char nome[50];
+    double salario, bonus, final;
+    scanf("%s", nome);
+    scanf("%lf", &salario);
+    scanf("%lf", &bonus);
+    final = salario + (bonus * 0.15);
+    printf("TOTAL = R$ %.2f\n", final);
+    return 0;
+}
