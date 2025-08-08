@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    double a ,b ,c, t, ci, tr, q, r;
+    scanf("%lf %lf %lf", &a, &b, &c);
+    t = (a*c)/2;
+    printf("TRIANGULO: %.3f\n", t);
+    ci = 3.14159*(c*c);
+    printf("CIRCULO: %.3f\n", ci);
+    tr = ((a+b)*c)/2;
+    printf("TRAPEZIO: %.3f\n", tr);
+    q = b*b;
+    printf("QUADRADO: %.3f\n", q);
+    r = a*b;
+    printf("RETANGULO: %.3f\n", r);
+    return 0;
+}
